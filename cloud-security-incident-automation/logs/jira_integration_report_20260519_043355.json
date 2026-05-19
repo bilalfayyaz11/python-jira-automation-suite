@@ -1,0 +1,176 @@
+{
+  "total_issues_created": 15,
+  "creation_timestamp": "2026-05-19T04:33:55.864321+00:00",
+  "severity_breakdown": {
+    "HIGH": 7,
+    "MEDIUM": 0,
+    "LOW": 8
+  },
+  "issues": [
+    {
+      "breach_id": "BREACH_20260519_043355_001",
+      "jira_issue": {
+        "key": "SEC-1001",
+        "id": "10001",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1001",
+        "created": "2026-05-19T04:33:55.862469+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_002",
+      "jira_issue": {
+        "key": "SEC-1002",
+        "id": "10002",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1002",
+        "created": "2026-05-19T04:33:55.862612+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_003",
+      "jira_issue": {
+        "key": "SEC-1003",
+        "id": "10003",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1003",
+        "created": "2026-05-19T04:33:55.862739+00:00",
+        "status": "Open"
+      },
+      "severity": "HIGH"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_004",
+      "jira_issue": {
+        "key": "SEC-1004",
+        "id": "10004",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1004",
+        "created": "2026-05-19T04:33:55.862887+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_005",
+      "jira_issue": {
+        "key": "SEC-1005",
+        "id": "10005",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1005",
+        "created": "2026-05-19T04:33:55.863005+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_006",
+      "jira_issue": {
+        "key": "SEC-1006",
+        "id": "10006",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1006",
+        "created": "2026-05-19T04:33:55.863132+00:00",
+        "status": "Open"
+      },
+      "severity": "HIGH"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_007",
+      "jira_issue": {
+        "key": "SEC-1007",
+        "id": "10007",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1007",
+        "created": "2026-05-19T04:33:55.863236+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_008",
+      "jira_issue": {
+        "key": "SEC-1008",
+        "id": "10008",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1008",
+        "created": "2026-05-19T04:33:55.863345+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_009",
+      "jira_issue": {
+        "key": "SEC-1009",
+        "id": "10009",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1009",
+        "created": "2026-05-19T04:33:55.863456+00:00",
+        "status": "Open"
+      },
+      "severity": "HIGH"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_010",
+      "jira_issue": {
+        "key": "SEC-1010",
+        "id": "100010",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1010",
+        "created": "2026-05-19T04:33:55.863555+00:00",
+        "status": "Open"
+      },
+      "severity": "HIGH"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_011",
+      "jira_issue": {
+        "key": "SEC-1011",
+        "id": "100011",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1011",
+        "created": "2026-05-19T04:33:55.863671+00:00",
+        "status": "Open"
+      },
+      "severity": "HIGH"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_012",
+      "jira_issue": {
+        "key": "SEC-1012",
+        "id": "100012",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1012",
+        "created": "2026-05-19T04:33:55.863932+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_013",
+      "jira_issue": {
+        "key": "SEC-1013",
+        "id": "100013",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1013",
+        "created": "2026-05-19T04:33:55.864035+00:00",
+        "status": "Open"
+      },
+      "severity": "LOW"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_014",
+      "jira_issue": {
+        "key": "SEC-1014",
+        "id": "100014",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1014",
+        "created": "2026-05-19T04:33:55.864110+00:00",
+        "status": "Open"
+      },
+      "severity": "HIGH"
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_015",
+      "jira_issue": {
+        "key": "SEC-1015",
+        "id": "100015",
+        "self": "https://your-company.atlassian.net/rest/api/3/issue/SEC-1015",
+        "created": "2026-05-19T04:33:55.864248+00:00",
+        "status": "Open"
+      },
+      "severity": "HIGH"
+    }
+  ]
+}

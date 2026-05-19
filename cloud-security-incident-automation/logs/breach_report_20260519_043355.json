@@ -1,0 +1,362 @@
+{
+  "report_timestamp": "2026-05-19T04:33:55.800141+00:00",
+  "total_breaches": 15,
+  "severity_breakdown": {
+    "HIGH": 7,
+    "MEDIUM": 0,
+    "LOW": 8
+  },
+  "breaches": [
+    {
+      "breach_id": "BREACH_20260519_043355_001",
+      "timestamp": "2026-05-19T04:33:52.733087+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "192.168.1.100",
+      "user": "admin@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_002",
+      "timestamp": "2026-05-19T04:33:52.933307+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "192.168.1.100",
+      "user": "admin@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_003",
+      "timestamp": "2026-05-19T04:33:53.133564+00:00",
+      "severity": "HIGH",
+      "description": "Access from unauthorized IP address; Access attempt by unauthorized user; Access to sensitive or confidential files",
+      "source_ip": "198.51.100.23",
+      "user": "unknown@suspicious.org",
+      "bucket": "company-sensitive-data",
+      "object_key": "secrets/api_keys.txt",
+      "action": "PUT",
+      "status_code": 200,
+      "detected_issues": [
+        "unauthorized_ip",
+        "unauthorized_user",
+        "suspicious_object"
+      ],
+      "impact_assessment": "Critical: Immediate action required. Potential cloud data compromise.",
+      "recommended_actions": [
+        "Block suspicious IP address",
+        "Review firewall or security group rules",
+        "Disable suspicious account",
+        "Force credential rotation",
+        "Audit object permissions",
+        "Review data classification policy"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_004",
+      "timestamp": "2026-05-19T04:33:53.333987+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "10.0.0.50",
+      "user": "admin@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_005",
+      "timestamp": "2026-05-19T04:33:53.534307+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "192.168.1.100",
+      "user": "security@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_006",
+      "timestamp": "2026-05-19T04:33:53.734562+00:00",
+      "severity": "HIGH",
+      "description": "Access from unauthorized IP address; Access attempt by unauthorized user; Access to sensitive or confidential files; Failed authentication or authorization attempt",
+      "source_ip": "192.0.2.100",
+      "user": "attacker@evil.net",
+      "bucket": "company-sensitive-data",
+      "object_key": "secrets/api_keys.txt",
+      "action": "PUT",
+      "status_code": 403,
+      "detected_issues": [
+        "unauthorized_ip",
+        "unauthorized_user",
+        "suspicious_object",
+        "failed_auth"
+      ],
+      "impact_assessment": "Critical: Immediate action required. Potential cloud data compromise.",
+      "recommended_actions": [
+        "Block suspicious IP address",
+        "Review firewall or security group rules",
+        "Disable suspicious account",
+        "Force credential rotation",
+        "Audit object permissions",
+        "Review data classification policy",
+        "Enable MFA",
+        "Review failed login source"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_007",
+      "timestamp": "2026-05-19T04:33:53.934809+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "192.168.1.100",
+      "user": "admin@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_008",
+      "timestamp": "2026-05-19T04:33:54.135078+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "10.0.0.50",
+      "user": "admin@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_009",
+      "timestamp": "2026-05-19T04:33:54.335338+00:00",
+      "severity": "HIGH",
+      "description": "Access from unauthorized IP address; Access attempt by unauthorized user; Access to sensitive or confidential files",
+      "source_ip": "198.51.100.23",
+      "user": "unknown@suspicious.org",
+      "bucket": "company-sensitive-data",
+      "object_key": "secrets/api_keys.txt",
+      "action": "PUT",
+      "status_code": 200,
+      "detected_issues": [
+        "unauthorized_ip",
+        "unauthorized_user",
+        "suspicious_object"
+      ],
+      "impact_assessment": "Critical: Immediate action required. Potential cloud data compromise.",
+      "recommended_actions": [
+        "Block suspicious IP address",
+        "Review firewall or security group rules",
+        "Disable suspicious account",
+        "Force credential rotation",
+        "Audit object permissions",
+        "Review data classification policy"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_010",
+      "timestamp": "2026-05-19T04:33:54.535575+00:00",
+      "severity": "HIGH",
+      "description": "Access from unauthorized IP address; Access attempt by unauthorized user; Access to sensitive or confidential files; Failed authentication or authorization attempt",
+      "source_ip": "172.16.254.1",
+      "user": "unknown@suspicious.org",
+      "bucket": "company-sensitive-data",
+      "object_key": "private/customer_database.sql",
+      "action": "PUT",
+      "status_code": 403,
+      "detected_issues": [
+        "unauthorized_ip",
+        "unauthorized_user",
+        "suspicious_object",
+        "failed_auth"
+      ],
+      "impact_assessment": "Critical: Immediate action required. Potential cloud data compromise.",
+      "recommended_actions": [
+        "Block suspicious IP address",
+        "Review firewall or security group rules",
+        "Disable suspicious account",
+        "Force credential rotation",
+        "Audit object permissions",
+        "Review data classification policy",
+        "Enable MFA",
+        "Review failed login source"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_011",
+      "timestamp": "2026-05-19T04:33:54.735848+00:00",
+      "severity": "HIGH",
+      "description": "Access from unauthorized IP address; Access attempt by unauthorized user; Access to sensitive or confidential files",
+      "source_ip": "198.51.100.23",
+      "user": "hacker@malicious.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "private/customer_database.sql",
+      "action": "PUT",
+      "status_code": 200,
+      "detected_issues": [
+        "unauthorized_ip",
+        "unauthorized_user",
+        "suspicious_object"
+      ],
+      "impact_assessment": "Critical: Immediate action required. Potential cloud data compromise.",
+      "recommended_actions": [
+        "Block suspicious IP address",
+        "Review firewall or security group rules",
+        "Disable suspicious account",
+        "Force credential rotation",
+        "Audit object permissions",
+        "Review data classification policy"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_012",
+      "timestamp": "2026-05-19T04:33:54.936054+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "192.168.1.100",
+      "user": "admin@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_013",
+      "timestamp": "2026-05-19T04:33:55.136291+00:00",
+      "severity": "LOW",
+      "description": "Unusual access pattern detected",
+      "source_ip": "192.168.1.100",
+      "user": "security@company.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "public/readme.txt",
+      "action": "GET",
+      "status_code": 200,
+      "detected_issues": [
+        "unusual_activity"
+      ],
+      "impact_assessment": "Low: Monitor situation. Unusual but not immediately threatening.",
+      "recommended_actions": [
+        "Monitor access patterns",
+        "Apply rate limiting"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_014",
+      "timestamp": "2026-05-19T04:33:55.336512+00:00",
+      "severity": "HIGH",
+      "description": "Access from unauthorized IP address; Access attempt by unauthorized user; Access to sensitive or confidential files",
+      "source_ip": "172.16.254.1",
+      "user": "hacker@malicious.com",
+      "bucket": "company-sensitive-data",
+      "object_key": "secrets/api_keys.txt",
+      "action": "DELETE",
+      "status_code": 200,
+      "detected_issues": [
+        "unauthorized_ip",
+        "unauthorized_user",
+        "suspicious_object"
+      ],
+      "impact_assessment": "Critical: Immediate action required. Potential cloud data compromise.",
+      "recommended_actions": [
+        "Block suspicious IP address",
+        "Review firewall or security group rules",
+        "Disable suspicious account",
+        "Force credential rotation",
+        "Audit object permissions",
+        "Review data classification policy"
+      ]
+    },
+    {
+      "breach_id": "BREACH_20260519_043355_015",
+      "timestamp": "2026-05-19T04:33:55.536951+00:00",
+      "severity": "HIGH",
+      "description": "Access from unauthorized IP address; Access attempt by unauthorized user; Access to sensitive or confidential files; Failed authentication or authorization attempt",
+      "source_ip": "203.0.113.45",
+      "user": "attacker@evil.net",
+      "bucket": "company-sensitive-data",
+      "object_key": "confidential/financial_data.xlsx",
+      "action": "DELETE",
+      "status_code": 403,
+      "detected_issues": [
+        "unauthorized_ip",
+        "unauthorized_user",
+        "suspicious_object",
+        "failed_auth"
+      ],
+      "impact_assessment": "Critical: Immediate action required. Potential cloud data compromise.",
+      "recommended_actions": [
+        "Block suspicious IP address",
+        "Review firewall or security group rules",
+        "Disable suspicious account",
+        "Force credential rotation",
+        "Audit object permissions",
+        "Review data classification policy",
+        "Enable MFA",
+        "Review failed login source"
+      ]
+    }
+  ]
+}

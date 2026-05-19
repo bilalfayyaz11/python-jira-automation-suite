@@ -1,0 +1,15 @@
+{
+  "jira_url": "https://your-company.atlassian.net",
+  "username": "security@company.com",
+  "api_token": "MOCK_API_TOKEN_FOR_DEMO",
+  "project_key": "SEC",
+  "issue_type": "Bug",
+  "priority_mapping": {
+    "HIGH": "Highest",
+    "MEDIUM": "High",
+    "LOW": "Medium"
+  },
+  "assignee": "security-team",
+  "components": ["Security", "Cloud Infrastructure"],
+  "labels": ["security-breach", "automated", "cloud"]
+}
