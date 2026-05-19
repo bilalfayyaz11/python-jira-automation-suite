@@ -1,0 +1,47 @@
+2026-05-19 04:52:24,910 - INFO - Starting automated threat detection and reporting
+2026-05-19 04:52:24,910 - INFO - Starting security scan on http://localhost:5000
+2026-05-19 04:52:24,944 - INFO - Spider progress: 0%
+2026-05-19 04:52:26,950 - INFO - Spider scan completed
+2026-05-19 04:52:26,988 - INFO - Active scan progress: 0%
+2026-05-19 04:52:32,001 - INFO - Active scan progress: 37%
+2026-05-19 04:52:37,016 - INFO - Active scan progress: 37%
+2026-05-19 04:52:42,028 - INFO - Active scan progress: 37%
+2026-05-19 04:52:47,041 - INFO - Active scan progress: 37%
+2026-05-19 04:52:52,049 - INFO - Active scan progress: 37%
+2026-05-19 04:52:57,059 - INFO - Active scan progress: 37%
+2026-05-19 04:53:02,069 - INFO - Active scan progress: 37%
+2026-05-19 04:53:07,079 - INFO - Active scan progress: 37%
+2026-05-19 04:53:12,088 - INFO - Active scan progress: 37%
+2026-05-19 04:53:17,097 - INFO - Active scan progress: 37%
+2026-05-19 04:53:22,108 - INFO - Active scan progress: 37%
+2026-05-19 04:53:27,117 - INFO - Active scan progress: 37%
+2026-05-19 04:53:32,127 - INFO - Active scan progress: 37%
+2026-05-19 04:53:37,137 - INFO - Active scan progress: 37%
+2026-05-19 04:53:42,146 - INFO - Active scan progress: 37%
+2026-05-19 04:53:47,156 - INFO - Active scan progress: 37%
+2026-05-19 04:53:52,165 - INFO - Active scan progress: 37%
+2026-05-19 04:53:57,174 - INFO - Active scan progress: 37%
+2026-05-19 04:54:02,184 - INFO - Active scan progress: 37%
+2026-05-19 04:54:07,197 - INFO - Active scan progress: 37%
+2026-05-19 04:54:12,206 - INFO - Active scan progress: 37%
+2026-05-19 04:54:17,219 - INFO - Active scan progress: 37%
+2026-05-19 04:54:22,228 - INFO - Active scan progress: 37%
+2026-05-19 04:54:27,240 - INFO - Active scan progress: 37%
+2026-05-19 04:54:32,252 - INFO - Active scan progress: 37%
+2026-05-19 04:54:37,261 - INFO - Active scan progress: 37%
+2026-05-19 04:54:42,287 - INFO - Active scan progress: 86%
+2026-05-19 04:54:47,292 - INFO - Active scan completed
+2026-05-19 04:54:47,335 - INFO - Report saved to threat_report.json
+2026-05-19 04:54:47,335 - INFO - === THREAT DETECTION SUMMARY ===
+2026-05-19 04:54:47,335 - INFO - Total alerts found: 28
+2026-05-19 04:54:47,335 - INFO - High risk: 3
+2026-05-19 04:54:47,335 - INFO - Medium risk: 11
+2026-05-19 04:54:47,336 - INFO - Low risk: 12
+2026-05-19 04:54:47,336 - INFO - Informational: 2
+2026-05-19 04:54:47,337 - INFO - Demo Jira issue report saved to automated_jira_issues.json
+2026-05-19 04:54:47,337 - INFO - Created 14 Jira-style issues
+2026-05-19 04:54:48,172 - INFO - Starting automated threat detection and reporting
+2026-05-19 04:54:48,172 - INFO - Starting security scan on http://localhost:5000
+2026-05-19 04:54:48,197 - INFO - Spider progress: 0%
+2026-05-19 04:54:50,204 - INFO - Spider scan completed
+2026-05-19 04:54:50,242 - INFO - Active scan progress: 0%
