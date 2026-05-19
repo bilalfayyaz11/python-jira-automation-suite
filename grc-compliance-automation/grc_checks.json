@@ -1,0 +1,49 @@
+{
+  "security_checks": [
+    {
+      "id": "SEC001",
+      "name": "Password Policy Compliance",
+      "description": "Verify password complexity requirements",
+      "category": "Authentication",
+      "severity": "High",
+      "check_type": "system_config"
+    },
+    {
+      "id": "SEC002",
+      "name": "SSH Configuration Security",
+      "description": "Ensure SSH is properly configured",
+      "category": "Network Security",
+      "severity": "Critical",
+      "check_type": "config_file"
+    },
+    {
+      "id": "SEC003",
+      "name": "File Permissions Audit",
+      "description": "Check critical file permissions",
+      "category": "Access Control",
+      "severity": "Medium",
+      "check_type": "file_system"
+    },
+    {
+      "id": "SEC004",
+      "name": "Service Status Monitoring",
+      "description": "Verify critical services are running",
+      "category": "System Monitoring",
+      "severity": "High",
+      "check_type": "service_status"
+    },
+    {
+      "id": "SEC005",
+      "name": "Log File Integrity",
+      "description": "Ensure log files are properly maintained",
+      "category": "Logging",
+      "severity": "Medium",
+      "check_type": "log_analysis"
+    }
+  ],
+  "compliance_frameworks": [
+    "ISO 27001",
+    "NIST Cybersecurity Framework",
+    "CIS Controls"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "total_checks": 5,
+    "passed": 4,
+    "failed": 1,
+    "errors": 0,
+    "compliance_rate": "80.0%"
+  },
+  "results": [
+    {
+      "check_id": "SEC001",
+      "name": "Password Policy Compliance",
+      "category": "Authentication",
+      "severity": "High",
+      "status": "PASS",
+      "issues": [],
+      "details": "Password policy configuration checked",
+      "timestamp": "2026-05-19T05:05:39.456736"
+    },
+    {
+      "check_id": "SEC002",
+      "name": "SSH Configuration Security",
+      "category": "Network Security",
+      "severity": "Critical",
+      "status": "FAIL",
+      "issues": [
+        "Password authentication enabled (consider key-based)"
+      ],
+      "details": "SSH configuration security checked",
+      "timestamp": "2026-05-19T05:05:39.457061"
+    },
+    {
+      "check_id": "SEC003",
+      "name": "File Permissions Audit",
+      "category": "Access Control",
+      "severity": "Medium",
+      "status": "PASS",
+      "issues": [],
+      "details": "File permissions audit completed",
+      "timestamp": "2026-05-19T05:05:39.457306"
+    },
+    {
+      "check_id": "SEC004",
+      "name": "Service Status Monitoring",
+      "category": "System Monitoring",
+      "severity": "High",
+      "status": "PASS",
+      "issues": [],
+      "details": "Service status monitoring completed",
+      "timestamp": "2026-05-19T05:05:39.481277"
+    },
+    {
+      "check_id": "SEC005",
+      "name": "Log File Integrity",
+      "category": "Logging",
+      "severity": "Medium",
+      "status": "PASS",
+      "issues": [],
+      "details": "Log file integrity check completed",
+      "timestamp": "2026-05-19T05:05:39.481686"
+    }
+  ],
+  "generated_at": "2026-05-19T05:05:39.481888"
+}
